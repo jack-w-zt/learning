@@ -1,0 +1,12 @@
+a=dict()
+print(a)
+b=dict(name='jack',age=20)
+print(b)
+c=dict([('name','jack'),('age',20)])
+print(c)
+keys='name'
+vals='jack'
+d=dict(zip(keys,vals))
+print(d)
+e=dict.fromkeys(['name','age'])
+print(e)
