@@ -1,0 +1,7 @@
+a=input()
+b=a.split()
+c=a.split(",",1)
+print(b)
+print(c)
+d=list(a.split(" "))
+print(d)
